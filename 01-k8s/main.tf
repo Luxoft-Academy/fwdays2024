@@ -1,11 +1,3 @@
-terraform {
-  backend "s3" {
-    bucket = "luxoft-academy-tf-state"
-    key    = "intertra-k8s.tfstate"
-    region = "us-east-1"
-  }
-}
-
 provider "aws" {
   region = "us-east-1"
 }
